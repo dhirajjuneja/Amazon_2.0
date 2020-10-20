@@ -1,24 +1,12 @@
 import React, { useState } from "react";
-import "./Login.css";
+import "./Register.css";
 import { Link, useHistory } from "react-router-dom";
 import { auth } from "./firebase";
 
-function Login() {
+function Register() {
   const [email, SetEmail] = useState("");
   const [password, SetPassword] = useState("");
   const history = useHistory();
-
-  const signIn = (e) => {
-    e.preventDefault();
-    auth
-      .signInWithEmailAndPassword(email, password)
-      .then((auth) => {
-        //It successfully created a new user with user and password
-        console.log(auth);
-        history.push("/");
-      })
-      .catch((error) => alert(error.message));
-  };
 
   const register = (e) => {
     e.preventDefault();
@@ -35,17 +23,17 @@ function Login() {
   };
 
   return (
-    <div className="login">
+    <div className="register">
       <Link to="/">
         <img
-          className="login__logo"
+          className="register__logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
           alt=""
         />
       </Link>
 
-      <div className="login__container">
-        <h2>Sign-in</h2>
+      <div className="register__container">
+        <h2>Create New Account</h2>
         <form action="">
           <h5>E-mail</h5>
           <input
@@ -62,20 +50,20 @@ function Login() {
           />
 
           <button
-            className="login__signInButton"
+            className="register__registerButton"
             type="submit"
-            onClick={signIn}
+            onClick={register}
           >
-            Sign In
+            Sign Up
           </button>
         </form>
         <p>
           By continuing, you agree to Amazon's Clone Conditions of Use and
           Privacy Notice, our Cookies Notice and our Internet-Based Ads Notice.
         </p>
-        <Link to="/register">
-          <button className="login__registerButton">
-            Create your Amazon account
+        <Link to="/login">
+          <button className="register__signInButton">
+            Already have a amazon account?
           </button>
         </Link>
       </div>
@@ -83,4 +71,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;
