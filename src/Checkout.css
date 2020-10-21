@@ -3,6 +3,7 @@
     padding: 20px;
     background-color: white;
     height: max-content;
+    width: fit-content;
 }
 .checkout__title{
     margin-right: 10px;
@@ -12,4 +13,18 @@
 .checkout__ad{
     width: 100%;
     margin-bottom: 10px;
+}
+.rel{
+    position: relative;
+}
+
+.checkout__item{
+    display: flex;
+    min-height: 150px;
+    padding: 10px;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.5);
 }
