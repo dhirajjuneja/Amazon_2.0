@@ -30,7 +30,12 @@ function Subtotal() {
         prefix={"$"}
       />
 
-      <button className='subtotal__payment' onClick={e => history.push('/payment')}>Proceed to Checkout</button>
+      <button
+        className="subtotal__payment"
+        onClick={(e) => history.push("/payment")}
+      >
+        Proceed to Checkout
+      </button>
     </div>
   );
 }

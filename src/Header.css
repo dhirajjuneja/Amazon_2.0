@@ -32,31 +32,31 @@
   height: 22px !important;
   background-color: #cd9042;
 }
-.header__nav{
-    display: flex;
-    justify-content: space-evenly;
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
 }
-.header__option{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white;
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
 }
-.header__optionLineOne{
-    font-size: 10px;
+.header__optionLineOne {
+  font-size: 10px;
 }
-.header__optionLineTwo{
-    font-size: 13px;
-    font-weight: 800;
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
 }
 
-.header__optionBasket{
-    display: flex;
-    align-items: center;
-    color: white;
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
 }
-.header__basketCount{
-    margin-left: 10px;
-    margin-right: 10px;
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
 }

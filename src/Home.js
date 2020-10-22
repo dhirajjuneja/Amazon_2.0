@@ -14,14 +14,14 @@ function Home() {
       </div>
       <div className="home__row">
         <Product
-        id='1'
+          id="1"
           title="The new book written by me"
           price={12.44}
           image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
           rating={5}
         />
         <Product
-        id='2'
+          id="2"
           title="Home & Kitchen›Kitchen & Home Appliances›Vacuum, Cleaning & Ironing›Pressure Washers, Steam & Window Cleaners›BLACK+DECKER Flow Rate Pressure Washer for Car wash and Home use"
           price={120.44}
           image="https://images-na.ssl-images-amazon.com/images/I/71rzRKUQmIL._SY606_.jpg"
@@ -37,14 +37,14 @@ function Home() {
           rating={5}
         />
         <Product
-          id='4'
+          id="4"
           title="Home & Kitchen›Kitchen & Home Appliances›Vacuum, Cleaning & Ironing›Pressure Washers, Steam & Window Cleaners›BLACK+DECKER Flow Rate Pressure Washer for Car wash and Home use"
           price={120.44}
           image="https://images-na.ssl-images-amazon.com/images/I/71rzRKUQmIL._SY606_.jpg"
           rating={5}
         />
         <Product
-        id='5'
+          id="5"
           title="The new book written by me"
           price={12.44}
           image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"

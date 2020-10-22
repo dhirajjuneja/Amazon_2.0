@@ -1,4 +1,4 @@
-import firebase from 'firebase';
+import firebase from "firebase";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCILYLOo3gyb2Hl0ESMstVYdX-B7sLD0uM",
@@ -8,7 +8,7 @@ const firebaseConfig = {
   storageBucket: "dj-amaz-portfoliyo.appspot.com",
   messagingSenderId: "804251511758",
   appId: "1:804251511758:web:ea9e62a20285cb82a3599f",
-  measurementId: "G-73ZNJF6KQ0"
+  measurementId: "G-73ZNJF6KQ0",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
