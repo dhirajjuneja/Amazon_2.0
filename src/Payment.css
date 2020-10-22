@@ -27,3 +27,7 @@
     margin: 0 20px;
     border-bottom: 1px solid lightgrey;
 }
+
+.payment__address, .payment__items, .payment__details{
+    flex: 0.8;
+}
