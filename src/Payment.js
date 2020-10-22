@@ -16,9 +16,7 @@ function Payment() {
   const [error, setError] = useState(null);
   const [disabled, setDisabled] = useState(true);
 
-  const handleSubmit = (e) => {
-
-  };
+  const handleSubmit = (e) => {};
   const handleChange = (event) => {
     // Listen for changes in the CardElement
     // and display any errors as the customer types their card details
@@ -70,14 +68,12 @@ function Payment() {
               <CardElement onChange={handleChange} />
               <div className="payment__priceContainer">
                 <CurrencyFormat
-                renderText={(value) => (
-                  <h3>Order Total: {value}</h3>
-                )}
-                decimalScale={2}
-                value={getBasketTotal(basket)}
-                displayType={'text'}
-                thousandSeparator={true}
-                prefix={'$'}
+                  renderText={(value) => <h3>Order Total: {value}</h3>}
+                  decimalScale={2}
+                  value={getBasketTotal(basket)}
+                  displayType={"text"}
+                  thousandSeparator={true}
+                  prefix={"$"}
                 />
               </div>
             </form>
