@@ -27,7 +27,7 @@ function Subtotal() {
         value={getBasketTotal(basket)}
         displayType={"text"}
         thousandSeperator={true}
-        prefix={"$"}
+        prefix={"₹"}
       />
 
       <button
