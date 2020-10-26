@@ -164,3 +164,21 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [debug] [2020-10-26T14:00:39.103Z] [worker-api-804dfcef-7252-4fe3-b7fb-588f7e416ef6]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-804dfcef-7252-4fe3-b7fb-588f7e416ef6]: exited"}}
 [debug] [2020-10-26T14:00:39.103Z] [worker-api-804dfcef-7252-4fe3-b7fb-588f7e416ef6]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-804dfcef-7252-4fe3-b7fb-588f7e416ef6]: FINISHED"}}
 [debug] [2020-10-26T14:00:39.104Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-10-26T14:02:28.576Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-10-26T14:02:28.577Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-10-26T14:02:28.578Z] Accepted request GET /dj-amaz-portfoliyo/us-central1/api --> api
+[debug] [2020-10-26T14:02:28.585Z] [worker-pool] Cleaned up workers for api: 2 --> 1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for api: 2 --> 1"}}
+[debug] [2020-10-26T14:02:28.585Z] [worker-pool] submitWork(triggerId=api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=api)"}}
+[debug] [2020-10-26T14:02:28.586Z] [worker-api-41cb4ca5-71bb-47d8-8a99-236fb09e514e]: Assigning socketPath: \\?\pipe\C:\Users\dhiraj\dj_Projects\React JS\Amazon_2.0\functions\908 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-41cb4ca5-71bb-47d8-8a99-236fb09e514e]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\dhiraj\\dj_Projects\\React JS\\Amazon_2.0\\functions\\908"}}
+[debug] [2020-10-26T14:02:28.590Z] [worker-api-41cb4ca5-71bb-47d8-8a99-236fb09e514e]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-41cb4ca5-71bb-47d8-8a99-236fb09e514e]: BUSY"}}
+[debug] [2020-10-26T14:02:28.593Z] [runtime-status] [908] Trigger "api" has been found, beginning invocation! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [908] Trigger \"api\" has been found, beginning invocation!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Beginning execution of \"api\""}}
+[debug] [2020-10-26T14:02:28.596Z] [runtime-status] [908] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [908] triggerDefinition {\"httpsTrigger\":{},\"name\":\"api\",\"entryPoint\":\"api\"}"}}
+[debug] [2020-10-26T14:02:28.597Z] [runtime-status] [908] Running api in mode HTTPS {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [908] Running api in mode HTTPS"}}
+[debug] [2020-10-26T14:02:28.597Z] [runtime-status] [908] Attempting to listen to socketPath: \\?\pipe\C:\Users\dhiraj\dj_Projects\React JS\Amazon_2.0\functions\908 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [908] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\dhiraj\\dj_Projects\\React JS\\Amazon_2.0\\functions\\908"}}
+[debug] [2020-10-26T14:02:28.599Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2020-10-26T14:02:28.604Z] [runtime-status] [908] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [908] Ephemeral server handling GET request"}}
+[debug] [2020-10-26T14:02:28.608Z] [runtime-status] [908] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"[runtime-status] [908] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Finished \"api\" in ~1s"}}
+[debug] [2020-10-26T14:02:28.610Z] [worker-api-41cb4ca5-71bb-47d8-8a99-236fb09e514e]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-41cb4ca5-71bb-47d8-8a99-236fb09e514e]: IDLE"}}
+[debug] [2020-10-26T14:02:28.611Z] [work-queue] {"queueLength":0,"workRunningCount":0}

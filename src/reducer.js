@@ -34,7 +34,7 @@ const reducer = (state, action) => {
         ...state,
         basket: newBasket,
       };
-    case "REMOVE_FROM_BASKET":
+    case "EMPTY_BASKET":
       return {
         ...state,
         basket: [],
